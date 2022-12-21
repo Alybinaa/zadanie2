@@ -1,0 +1,212 @@
+* {
+    padding: 0; margin: 0;
+}
+body {
+    margin: 0;
+    font-family: RobotoCondensed;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+@font-face {
+    font-family: Balqis;
+    src: url("fonts/Balqis.ttf");
+}
+@font-face {
+    font-family: RobotoCondensed;
+    src: url("fonts/RobotoCondensed-Regular.ttf");
+}
+
+/*------------------header-------------------*/
+header .menu {
+    list-style-type: none;
+    display: flex;
+    gap: 52px;
+    justify-content: left;
+}
+header .menu a, .phone {
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    margin: 25px 0;
+    font-size: 24px;
+}
+header {
+    background: url("images/header.jpg");
+    background-size: cover;
+}
+h1 {
+    font-family: Balqis;
+    font-weight: 400;
+    font-size: 250px;
+    text-align: center;
+    margin-top: 151px;
+    padding-bottom: 498px
+}
+header span {
+    display: block;
+    font-family: RobotoCondensed;
+    font-weight: 300;
+    font-style: italic;
+    float: right;
+    margin-right: 100px;
+    font-size: 65.63px;
+    margin-top: -80px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav div::before {
+    content: url("images/phone.png");
+    width: 30px;
+    height: 30px;
+    margin-right: 10.04px;
+}
+nav div {
+    display: flex;
+    align-items: center;
+}
+/*------------------main-------------------*/
+
+main article {
+    margin-top: 200px;
+}
+
+/*img*/
+.img {
+    width: 960px;
+}
+.article1 {
+    height: 700px;
+    background: url("images/11.jpg");
+    position: absolute;
+    left: 0;
+    margin-top: 100px
+}
+p {
+    font-family: RobotoCondensed;
+    font-style: normal;
+}
+main h3 {
+    font-family: 'Balqis';
+    src: url(fonts/Balqis.ttf);
+    font-style: normal;
+    color: #E2AB3F;
+    font-size: 96px;
+}
+main h4 {
+    font-family: 'Roboto Condensed';
+    font-style: italic;
+    font-size: 24px;
+    margin-left: 240px;
+}
+main h4 + .img + p {
+    margin-top: 144px;
+}
+main h5 {
+    font-size: 96px;
+    font-family: 'Balqis';
+    color: #E2AB3F;
+}
+main h6 {
+    font-size: 24px;
+}
+.info .p1 {
+    margin-bottom: 50px;
+    font-size: 18px;
+    margin-left: 680px;
+}
+.info .p2 {
+    font-size: 18px;
+    margin-left: 680px;
+}
+.bold {
+    font-weight: bold;
+}
+.article2 {
+    height: 1060px;
+    width: 900px;
+    background: url("images/21.png");
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 960px;
+}
+.trip h4 {
+    margin-bottom: 100px;
+}
+.trip p {
+    font-size: 24px;
+    width: 296px;
+}
+.trip .p1 {
+    margin-top: 20px;
+}
+.trip .p2 {
+    margin-bottom: 50px;
+}
+[type="button"] {
+    border: #E2AB3F 1px solid;
+    padding: 11px 53px 11px 53px;
+    background-color: #ffffff;
+    margin-top: 50px;
+    font-size: 24px;
+}
+.hotel h3 {
+    margin-bottom: 0;
+}
+.hotel p {
+    margin-bottom: 50px;
+    font-size: 18px;
+    margin-left: 602px;
+    width: 600px;
+}
+.price div {
+    margin-bottom: 50px;
+    width: 530px;
+}
+.price p {
+    margin-bottom: 20px;
+}
+.price h6 {
+    margin-bottom: 50px;
+}
+.form1 {
+    height: 800px;
+    width: 600px;
+    background: url("images/form.png");
+    position: absolute;
+    left: 960px;
+    margin-top: 200px;
+}
+.form h6 {
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+input {
+    margin-bottom: 20px;
+    display: block;
+}
+[type="text"], [type="phone"] {
+    border: #E2AB3F 1px solid;
+    padding: 15px 150px 15px 10px;
+    margin-left: 120px;
+}
+[type="submit"] {
+    border: #E2AB3F 1px solid;
+    padding: 20px 66px 20px 66px;
+    background-color: #ffffff;
+    margin-left: 150px;
+}
+
+
+/*------------------footer-------------------*/
+
+footer {
+    background: url(images/footer.png);
+    background-size: cover;
+    height: 1180px;
+}
+
